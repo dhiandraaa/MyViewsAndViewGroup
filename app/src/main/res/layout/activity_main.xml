@@ -8,13 +8,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/Layout"
         android:orientation="vertical">
 
         <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            style="@style/Layout">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -47,7 +45,7 @@
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="$850"
+            android:text="@string/_850"
             android:textColor="@android:color/black"
             android:textSize="32sp" />
 
@@ -57,7 +55,7 @@
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:text="Stok Tersedia 5"
+            android:text="@string/stok_tersedia_5"
             android:textSize="12sp" />
 
         <TextView
@@ -76,12 +74,11 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:text="Spesifikasi"
+            android:text="@string/spesifikasi"
             android:textSize="12sp" />
 
         <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/Layout"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin">
@@ -95,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:text="Display" />
+                    android:text="@string/display" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -114,7 +111,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:text="Size" />
+                    android:text="@string/size" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -134,7 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/activity_horizontal_margin"
-                    android:text="Battery" />
+                    android:text="@string/battery" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -150,15 +147,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dijual Oleh"
+            android:text="@string/dijual_oleh"
             android:textSize="12sp"
             android:layout_marginBottom="8dp"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/Layout"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin">
@@ -174,16 +170,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dhiandra Adith"
+                android:text="@string/dhiandra_adith"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/pic_profile"
                 android:textColor="@android:color/black"/>
         </RelativeLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Beli"
+            style="@style/Layout"
+            android:text="@string/beli"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
